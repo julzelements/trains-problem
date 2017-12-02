@@ -1,0 +1,19 @@
+{
+  "name": "nodeplayground",
+  "version": "1.0.0",
+  "description": "node cli testing ground",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "csv": "^2.0.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^4.0.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
