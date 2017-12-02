@@ -2,12 +2,7 @@
 
 'use strict';
 
-const _ = require('lodash');
+var sayhello = require("./logger").sayhello;
 
 console.log("hello world");
-
-const myArray = ['apples', 'oranges', 'pears'];
-
-_.forEach(myArray, value => {
-console.log(value);
-});
+sayhello();
