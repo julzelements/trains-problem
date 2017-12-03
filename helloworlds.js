@@ -2,7 +2,7 @@
 
 'use strict';
 
-var sayhello = require("./logger").sayhello;
+var logger = require("./logger");
 
 console.log("hello world");
-sayhello();
+logger.log("Hello world");
