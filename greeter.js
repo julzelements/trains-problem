@@ -1,10 +1,10 @@
 'use strict';
 
-// Make logger a dependency of greeter.js
+// Abstract away the logger dependency
 
 const logger = require("./logger");
 
-const Greeter = function(logger) {
+const Greeter = function() {
     this.logger = logger;
 }
 
