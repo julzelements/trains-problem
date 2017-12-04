@@ -1,3 +1,9 @@
 "use strict";
 
- exports.log = (string) => console.log(string);
+var Logger = function () {};
+
+Logger.prototype.log = function (string) {
+    console.log(string);
+};
+
+module.exports = new Logger();
