@@ -11,6 +11,5 @@ When in strict mode, js will not allow undeclared varables to be used. For examp
 
  myFrut = "orange";
 
- without use strict, I would have accidentally created a new variable instead of changing the old one.
+ without use strict, I would have accidentally created a new variable instead of changing the old one. With 'use strict' I will get an error message and I will know what I have done wrong.
 
- 
