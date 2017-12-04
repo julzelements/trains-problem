@@ -1,15 +1,13 @@
 'use strict';
 
-// Abstract away the logger dependency
+// New up the logger in the Greeter object
 
-const logger = require("./logger");
-
-const Greeter = function() {
-    this.logger = logger;
+var Greeter = function() {    
 }
 
-Greeter.prototype.greet = function(greeting) {
-    this.logger.log(greeting);
+Greeter.prototype.greet = function(string) {
+    var logger = require('./logger');
+    logger.log(string);
 }
 
-module.exports = new Greeter(logger);
+module.exports = new Greeter();
